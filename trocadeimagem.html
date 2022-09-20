@@ -1,0 +1,36 @@
+<script>
+function slide1(){
+document.getElementById('id').src="folou.jpg";
+setTimeout("slide2()",5000)
+}
+
+function slide2(){
+document.getElementById('id').src="daryl.jpg";
+setTimeout("slide3()",5000)
+}
+
+function slide3(){
+document.getElementById('id').src="cascao.png";
+setTimeout("slide4()",5000)
+}
+
+function slide4(){
+document.getElementById('id').src="water.png";
+setTimeout("slide5()",5000)
+}
+
+function slide5(){
+document.getElementById('id').src="rapunzel.png";
+setTimeout("slide1()",5000)
+}
+
+</script>
+
+<body onLoad="slide1()">
+<table border="1">
+<tr>
+<td style="width:424px; background: red">Daryl lindao</td>
+<td style="width:1500px; text-align:center">
+  <img id="id" style="width:30%;">
+</tr>
+</body>

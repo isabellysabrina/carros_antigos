@@ -1,0 +1,73 @@
+body{
+ background:yellow;
+	
+}
+#conteudo-principal{
+	width: 1920px;
+	height: auto;
+	float: left;
+	padding: 1px;
+	margin: 1px;
+}
+
+.texto{
+	background:blue;
+	width:1920px;
+}
+
+#imagemprincipal{
+	width:1920px;	
+}
+
+
+
+#conteudo-esquerda{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+
+#conteudo-centro{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+
+#conteudo-direita{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+
+#conteudo-quarto{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+
+#conteudo-images{
+	width: 424px;
+	height: auto;
+	float: left;
+}
+
+	
+.banner{
+width: 424px;
+height:375px;
+}
+
+#conteudo-rodape{
+	width: 824px;
+	height: auto;
+	float: left;
+	padding: 10px;
+	margin: 1px;	
+}
+#video-rodape{
+	width: 430px;
+	height: 285px;
+	padding: 1px;
+	margin: 1px;
+	float: right;
+}

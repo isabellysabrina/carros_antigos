@@ -1,0 +1,70 @@
+header{
+background:#5F9EA0;
+padding:20px 0;
+}
+
+.caixa{
+position: relative;
+width: 1400px;
+margin: 0 auto;
+}
+
+nav{
+position: absolute;
+top:60px;	
+right: 0;	
+}
+
+nav li{
+display: inline; /* ficar na horizontal*/
+margin: 0 0 0 15px; /* espaço para esquerda*/
+}
+
+nav a{
+text-transform: uppercase; /*maiusculo*/	
+color: 	black; /*cor da letra*/
+font-weight: bold;/*texto*/
+font-size: 22px;/*tamanho do texto*/
+text-decoration:none;/*tirar sublinhado*/
+}
+
+nav a:hover{
+color:	#FF0000;
+text-decoration: underline;
+}
+
+.produtos{
+width:1920px;
+margin: 0 auto;
+padding: 55px 0;
+
+}
+
+.produtos li{
+display: inline-block; /*alinha na mesma linha*/
+border: 10px solid 	black;
+text-align: center;
+width: 30%;
+margin: 0 1.5%;
+vertical-align: top;
+padding: 30px 20px;
+box-sizing: border-box;
+border-radius: 50px;
+}
+
+.produtos li:hover{
+border-color: 	#FF0000;
+font-size: 20px;
+}
+
+footer{
+background: black;
+padding: 0;
+text-align: center;
+}
+
+.copyright{
+color: white;
+font-size:15;
+margin: 20px 0 20px;
+}
